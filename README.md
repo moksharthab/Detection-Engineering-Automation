@@ -1,4 +1,4 @@
-# Detection Documentation Automation Prompt
+# Detection Documentation Automation
 
 ## Overview
 
