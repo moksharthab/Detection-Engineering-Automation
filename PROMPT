@@ -1,0 +1,63 @@
+
+Rule name - prod_windows_event_logs_automated_ad_anti_nesting_control
+Title - Windows Event Logs - Automated AD Anti-Nesting Control
+Confluence parent page - <Link>
+Sample Confluence page - <Link> 
+Sample Jira Ticket - <Link> 
+
+For this query:
+
+<Detection Query>
+
+Use the **soc-playbook** for this query.
+
+Then Using the Jira Enterprise Remote MCP Server, i want the exact replica of the Confluence / Projecthub page mentioned above. Create it under the parent page mentioned above.
+
+Jira ticket sample and Confluence page sample are defined in the agent system message.
+
+**The formatting, color grading, look and feel of the page should be exactly the same in the replica**.
+
+Create it with name - <Title (given above)>
+
+Give your best to update this confluence page with the output you just from running the agent system message
+
+Use the Jira Enterprise remote MCP server and Use this mapping to accurately place the content in the Confluence page:
+
+Description from Skill output -> Description (under Detection Details) and General Tuning (under SOC Details) in Confluence page
+MITRE ATT&CK Mapping from Skill output -> MITRE Technique ID's (under Detection Details) in Confluence page
+Threat Actor References from Skill Output -> References (under Detection Details) in Confluence page
+Requirements from Skill Output -> Requirements (under Detection Details) in Confluence page
+Blind spots from Skill Output -> Blindspots (under SOC Details) in Confluence page
+Rule name from the Prompt -> Dashboard Name (under SOC Details) in Confluence page
+Known False positives from Skill Output -> False Positives (under SOC Details) in Confluence page
+Investigation Steps from Skill Output -> Investigation Steps (under SOC Details) in Confluence page
+
+----------------
+
+Please create a *exact* replica of the Jira ticket mentioned above and assign it to the current sprint.
+
+*Be thorough in this*:
+
+Create it with title as  - Title (given above)
+Add Component as "Detection Engineering".
+Add Story Points -> 3
+Add the epic link as WSOC-1777
+
+
+Give your best to update this Jira Ticket Description with the output you just got from running the agent system message
+
+Use the Jira Enterprise remote MCP server and Use this mapping to accurately place the content in the newly created Jira ticket. All of the output will in the Description section. I will keep the headers here, write the output under the header:
+
+*Strict Output format*:
+
+Description from Skill output -> Under Description Header
+MITRE ATT&CK Mapping from Skill output (Only TTP ID - TTP Name) -> Under MITRE Techniques Header
+Requirements from Skill Output -> Under the Requirements header
+Rule name given in the prompt -> Under the Dashboard name header
+
+-------------------
+
+After the processing above, i need clickable links to these like this:
+
+Confluence page: <link>
+Jira ticket: <link>
