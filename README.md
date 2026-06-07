@@ -6,6 +6,9 @@ This repository contains a reusable prompt pattern for turning any detection que
 
 The prompt accepts a rule name, title, detection query, sample Confluence page, sample Jira ticket, and destination parent page. It asks the agent to analyze the query, generate SOC playbook content, and use that output to populate matching Confluence and Jira artifacts in a consistent format.
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/7337085c-e043-4e7a-97e8-eb370d78a073" />
+
+
 ## What The Prompt Does
 
 The prompt instructs the agent to use the `soc-playbook` skill to convert the supplied detection logic into operational SOC content. That output is expected to include:
